@@ -27,7 +27,7 @@ trace:
     environment:
       LD_LIBRARY_PATH: $$LIBRARY_PATH$$
     images:
-      - $$TARGET_NAME$$
+      - $$$TARGET_NAME$$$
       - libexample.so
   options:
     input-buffer-size: 4
